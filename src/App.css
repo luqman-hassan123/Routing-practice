@@ -1,0 +1,37 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.navbar {
+  display: flex;
+  justify-content: center; /* Centers the items horizontally */
+  align-items: center; /* Vertically aligns the items */
+  gap: 20px;
+  background-color: rgb(179, 170, 170);
+  color: white;
+}
+
+.navbar ul {
+  display: flex;
+  gap: 20px; /* Adds space between the list items */
+  padding: 0; /* Removes default padding */
+  margin: 0; /* Removes default margin */
+}
+
+.navbar li {
+  list-style: none;
+}
+
+.navbar a {
+  color: white;
+  text-decoration: none; /* Removes the underline from links */
+  padding: 10px 15px; /* Adds padding for clickable areas */
+  display: block; /* Ensures the entire area is clickable */
+}
+
+.navbar a:hover {
+  background-color: rgba(255, 255, 255, 0.1); /* Adds a subtle hover effect */
+}
